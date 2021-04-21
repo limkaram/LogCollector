@@ -1,0 +1,30 @@
+version: 1
+
+disable_existing_loggers: False
+
+formatters:
+    basic:
+        format: "%(asctime)s :: %(name)s :: %(funcName)-s :: %(levelname)-5s :: %(message)s"
+        datefmt: "%Y-%m-%d %H:%M:%S"
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: basic
+
+    file_debug:
+        class: logging.FileHandler
+        level: DEBUG
+        formatter: basic
+        filename: ..\logs\sftp.log
+
+loggers:
+    main:
+        level: DEBUG
+        handlers: [console, file_debug]
+        propagate: False
+    handler:
+        level: DEBUG
+        handlers: [console, file_debug]
+        propagate: False

@@ -1,0 +1,149 @@
+2021-03-17 12:50:41 :: main :: __init__ :: ERROR :: line 21, controller = handler.SFTPHandler() :: logger file is not exist
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 12:52:10 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\\Users\\skns\\temp, remote : None)
+2021-03-17 12:52:10 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210314
+2021-03-17 12:52:10 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210315
+2021-03-17 12:52:10 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210316
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'test.log-20210121.log', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1)
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210314)
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/test.log-20210314.log] to [C:\\Users\\skns\\temp\hyperns1\20210314\test.log-20210314.log]
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Download complete! elapsed time : 0.02s
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'test.log-20210121.log', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210315)
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/test.log-20210315.log] to [C:\\Users\\skns\\temp\hyperns1\20210315\test.log-20210315.log]
+2021-03-17 12:52:10 :: main :: __init__ :: ERROR :: [Errno 13] Permission denied :: check the permission /home/skns/temp/svc/log/mariadb/archive/test.log-20210315.log
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: pass to download this file(/home/skns/temp/svc/log/mariadb/archive/test.log-20210315.log)
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'test.log-20210121.log', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210316)
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/test.log-20210316.log] to [C:\\Users\\skns\\temp\hyperns1\20210316\test.log-20210316.log]
+2021-03-17 12:52:10 :: main :: __init__ :: INFO  :: Download complete! elapsed time : 0.00s
+2021-03-17 12:52:10 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 13:01:32 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\\Users\\skns\\temp, remote : None)
+2021-03-17 13:01:32 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210314
+2021-03-17 13:01:32 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210315
+2021-03-17 13:01:32 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210316
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'test.log-20210121.log', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1)
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210314)
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/test.log-20210314.log] to [C:\\Users\\skns\\temp\hyperns1\20210314\test.log-20210314.log]
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Download complete! elapsed time : 0.02s
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'test.log-20210121.log', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210315)
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/test.log-20210315.log] to [C:\\Users\\skns\\temp\hyperns1\20210315\test.log-20210315.log]
+2021-03-17 13:01:32 :: main :: __init__ :: ERROR :: [Errno 13] Permission denied :: check the permission /home/skns/temp/svc/log/mariadb/archive/test.log-20210315.log
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: pass to download this file(/home/skns/temp/svc/log/mariadb/archive/test.log-20210315.log)
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'test.log-20210121.log', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210316)
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/test.log-20210316.log] to [C:\\Users\\skns\\temp\hyperns1\20210316\test.log-20210316.log]
+2021-03-17 13:01:32 :: main :: __init__ :: INFO  :: Download complete! elapsed time : 0.00s
+2021-03-17 13:01:32 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 13:29:03 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 13:29:04 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 13:29:04 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\\Users\\skns\\temp, remote : None)
+2021-03-17 13:29:04 :: main :: __init__ :: INFO  :: All files have been downloaded completely
+2021-03-17 13:29:04 :: main :: __init__ :: INFO  :: Pass this server(172.27.12.39, hyperns1)
+2021-03-17 13:29:15 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 13:29:16 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\\Users\\skns\\temp, remote : None)
+2021-03-17 13:29:16 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210314
+2021-03-17 13:29:16 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210315
+2021-03-17 13:29:16 :: handler :: get_download_missing_date :: INFO  :: the directory of path doesn't contain files: C:\\Users\\skns\\temp\hyperns1\20210316
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'general.log-20210316.gz', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1)
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210314)
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/general.log-20210314.gz] to [C:\\Users\\skns\\temp\hyperns1\20210314\general.log-20210314.gz]
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Download complete! elapsed time : 0.09s
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'general.log-20210316.gz', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210315)
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/general.log-20210315.gz] to [C:\\Users\\skns\\temp\hyperns1\20210315\general.log-20210315.gz]
+2021-03-17 13:29:16 :: main :: __init__ :: ERROR :: [Errno 13] Permission denied :: check the permission /home/skns/temp/svc/log/mariadb/archive/general.log-20210315.gz
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: pass to download this file(/home/skns/temp/svc/log/mariadb/archive/general.log-20210315.gz)
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Attempting to download file, {'TYPE': 'test1', 'FILENAME_FORMAT': 'general.log-20210316.gz', 'DIR_PATH': '/home/skns/temp/svc/log/mariadb/archive'}
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: not exist, try to make directory(C:\\Users\\skns\\temp\hyperns1\20210316)
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Downloading..., [/home/skns/temp/svc/log/mariadb/archive/general.log-20210316.gz] to [C:\\Users\\skns\\temp\hyperns1\20210316\general.log-20210316.gz]
+2021-03-17 13:29:16 :: main :: __init__ :: INFO  :: Download complete! elapsed time : 0.09s
+2021-03-17 13:29:16 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:30:04 :: main :: __init__ :: ERROR :: line 21, controller = handler.SFTPHandler() :: logger file is not exist
+2021-03-17 16:30:35 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.21, username:skns)
+2021-03-17 16:30:35 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.21, username:skns)
+2021-03-17 16:30:35 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/raw_local/data)
+2021-03-17 16:30:35 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:31:50 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:31:50 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:31:50 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:31:50 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:34:23 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:34:23 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:34:23 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:34:23 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:35:29 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:35:30 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:35:30 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:35:30 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:37:03 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:37:04 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:37:04 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:37:04 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:37:48 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:37:48 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:37:48 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:37:48 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:41:21 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:41:22 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:41:22 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:41:22 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:41:26 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:41:26 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:41:26 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:41:26 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:47:08 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:47:08 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:47:08 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:47:08 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 16:48:12 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 16:48:13 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 16:48:13 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 16:48:13 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 17:00:10 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 17:00:10 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 17:00:10 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 17:00:10 :: handler :: close_session :: INFO  :: Closed session
+2021-03-17 17:01:31 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 17:01:31 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 17:01:31 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 17:01:31 :: main :: __init__ :: INFO  :: current local_date_dir_path : C:\Users\skns\temp\hyperns1\20210314
+2021-03-17 17:01:31 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/skns/logdata/hyperns1)
+2021-03-17 17:01:31 :: main :: __init__ :: ERROR :: line 104, controller.mkdir(remote_dir_path, to='remote') :: [Errno 2] No such file
+2021-03-17 17:04:57 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 17:04:58 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 17:04:58 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 17:04:58 :: main :: __init__ :: INFO  :: current local_date_dir_path : C:\Users\skns\temp\hyperns1\20210314
+2021-03-17 17:04:58 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/skns/logdata/hyperns1)
+2021-03-17 17:04:58 :: main :: __init__ :: ERROR :: line 105, controller.mkdir(remote_dir_path, to='remote') :: [Errno 2] No such file
+2021-03-17 17:07:01 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 17:07:01 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 17:07:01 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/skns/logdata)
+2021-03-17 17:07:01 :: main :: __init__ :: INFO  :: current local_date_dir_path : C:\Users\skns\temp\hyperns1\20210314
+2021-03-17 17:07:01 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/skns/logdata/hyperns1)
+2021-03-17 17:07:01 :: main :: __init__ :: ERROR :: line 106, controller.mkdir(remote_dir_path, to='remote') :: [Errno 2] No such file
+2021-03-17 17:09:29 :: main :: __init__ :: INFO  :: Attempting to create an SFTP session(host:172.27.12.39, username:test)
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: SFTP session created successfully(host:172.27.12.39, username:test)
+2021-03-17 17:09:30 :: handler :: set_default_path :: INFO  :: local/remote desult path set completely(local : C:\Users\skns\temp, remote : /home/test/logdata)
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: current local_date_dir_path : C:\Users\skns\temp\hyperns1\20210314
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/test/logdata/hyperns1)
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/test/logdata/hyperns1/20210314)
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: Upload complete! elapsed time : 0.05 :: [C:\Users\skns\temp\hyperns1\20210314\appadmin.log-20210314.gz] to [/home/test/logdata/hyperns1/20210314/appadmin.log-20210314.gz]
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: Upload complete! elapsed time : 0.05 :: [C:\Users\skns\temp\hyperns1\20210314\general.log-20210314.gz] to [/home/test/logdata/hyperns1/20210314/general.log-20210314.gz]
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: current local_date_dir_path : C:\Users\skns\temp\hyperns1\20210315
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/test/logdata/hyperns1/20210315)
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: Upload complete! elapsed time : 0.06 :: [C:\Users\skns\temp\hyperns1\20210315\appadmin.log-20210315.gz] to [/home/test/logdata/hyperns1/20210315/appadmin.log-20210315.gz]
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: Upload complete! elapsed time : 0.00 :: [C:\Users\skns\temp\hyperns1\20210315\general.log-20210315.gz] to [/home/test/logdata/hyperns1/20210315/general.log-20210315.gz]
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: current local_date_dir_path : C:\Users\skns\temp\hyperns1\20210316
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: not exist, try to make directory(/home/test/logdata/hyperns1/20210316)
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: Upload complete! elapsed time : 0.09 :: [C:\Users\skns\temp\hyperns1\20210316\appadmin.log-20210316.gz] to [/home/test/logdata/hyperns1/20210316/appadmin.log-20210316.gz]
+2021-03-17 17:09:30 :: main :: __init__ :: INFO  :: Upload complete! elapsed time : 0.06 :: [C:\Users\skns\temp\hyperns1\20210316\general.log-20210316.gz] to [/home/test/logdata/hyperns1/20210316/general.log-20210316.gz]
+2021-03-17 17:09:30 :: handler :: close_session :: INFO  :: Closed session

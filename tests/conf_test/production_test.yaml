@@ -1,0 +1,37 @@
+PRODUCTION_INFO:
+#     - PURPOSE: download
+#       NAME: hyperns1
+#       HOST: 172.27.12.39
+#       USERNAME: test
+#       PASSWORD: test
+#       PORT: 22
+#       LOCAL_PATH: C:\\Users\\skns\\temp
+#       FILES_INFO:
+#            - TYPE: test1
+#              FILENAME_FORMAT: test.log-20210121.log
+#              DIR_PATH: /home/skns/temp/svc/log/mariadb/archive
+
+     - PURPOSE: upload
+       HOST: 172.27.12.39
+       USERNAME: test
+       PASSWORD: test
+       PORT: 22
+       LOCAL_PATH: C:\Users\skns\temp
+       REMOTE_PATH: /home/test/logdata
+
+#     - PURPOSE: upload
+#       HOST: 172.27.12.39
+#       USERNAME: skns
+#       PASSWORD: 1q2w#E$R
+#       PORT: 22
+#       LOCAL_PATH: C:\\Users\\skns\\temp
+#       REMOTE_PATH: /home/skns/raw_local/data
+#
+#     - PURPOSE: upload_to_hdfs
+#       HOST: 172.27.12.21
+#       USERNAME: skns
+#       PASSWORD: hyperns!
+#       PORT: 22
+#       LOCAL_PATH: C:\\Users\\skns\\temp
+#       REMOTE_PATH: /home/skns/raw_local/data
+#       SHELL_COMMAND: sh /home/skns/raw_local/scripts/execute_upload.sh {REMOTE_PATH} {MISSING_DATE_STRING}
